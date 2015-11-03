@@ -1,0 +1,15 @@
+{
+  "name": "ticket_parser",
+  "version": "0.0.1",
+  "description": "Just a parser of some trash info",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "DEBUG=* node main.js"
+  },
+  "author": "Sinuhe Jaime Valencia <sierisimo@gmail.com>",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "debug": "^2.2.0"
+  }
+}
