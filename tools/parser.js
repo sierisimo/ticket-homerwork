@@ -78,7 +78,13 @@ function parseItem(line) {
   itemObj.name = line.substring(0, 4);
   itemObj.id = line.substring(4, 7);
 
-  numbersData = line.substring(8).split(":")
+  numbersData = line.substring(8).split(":");
+
+  itemObj.first_number = Number.parseInt(numbersData[0]);
+
+  itemObj.second_number = Number.parseInt(numbersData[3]);
+
+  itemObj.totalPrice = Number.parseFloat(numbersData[numbersData.length - 1]);
 
   return itemObj;
 }
