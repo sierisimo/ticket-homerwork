@@ -22,9 +22,10 @@ filesPromise.then(require('./tools/fileReader').organize)
 
     return parsedData;
   }).then(require('./tools/validator').validateTickets)
-  .then(function(validItems) {
-    debug("Storing...");
-    debug(validItems);
+  .then(require('./tools/db').insertTickets)
+  .then(require('./tools/db').getInfoTickets)
+  .then(function(data){
+    
   })
   .catch(function(err) {
     debug("Error happend");

@@ -45,7 +45,7 @@ function parseHeader(line) {
 
   date = new Date(
     Number.parseInt(line[index++] + line[index++] + line[index++] + line[index++]),
-    Number.parseInt(line[index++] + line[index++]),
+    Number.parseInt(line[index++] + line[index++]) - 1,
     Number.parseInt(line[index++] + line[index++])
   );
 
