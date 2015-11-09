@@ -38,20 +38,13 @@ function parseHeader(line) {
     index = 0,
     date, countryFlag = false;
 
-  headObj.type = line.substring(index, 3);
-  index = 3;
+  //Number of the ticket
   headObj.id = line.substring(index, 8);
   index = 8;
-  headObj.action = line[index];
-  headObj.action_id = line.substring(++index, 12);
-  index = 12;
-  headObj.country = line[index];
 
-  if (!Number.parseInt(line[++index])) {
-    headObj.country += line[index++];
+  headObj.clientId = line.substring(index, 14);
 
-    countryFlag = true;
-  }
+  index = 14;
 
   date = new Date(
     Number.parseInt(line[index++] + line[index++] + line[index++] + line[index++]),
@@ -71,26 +64,28 @@ function parseHeader(line) {
 
 function parseItem(line) {
   var itemObj = {},
+    elements = line.split(" "),
     numbersData;
 
-  ditem("Line Arrived");
+    elements = elements.filter(function(elem, ind, arr){
+      return !!elem.length;
+    });
 
-  itemObj.name = line.substring(0, 4);
-  itemObj.id = line.substring(4, 7);
+    ditem(elements);
 
-  numbersData = line.substring(8).split(":");
+    itemObj.productId = elements[0];
 
-  itemObj.first_number = Number.parseInt(numbersData[0]);
+    itemObj.age = Number.parseInt(elements[1]);
 
-  itemObj.second_number = Number.parseInt(numbersData[3]);
+    itemObj.quantity = Number.parseInt(elements[2]);
 
-  itemObj.totalPrice = Number.parseFloat(numbersData[numbersData.length - 1]);
+    itemObj.value = Number.parseFloat(elements[3]);
 
   return itemObj;
 }
 
 function parseTotal(line) {
-  dtotal("Line arrived");
+
 
   return {};
 }
