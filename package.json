@@ -10,6 +10,7 @@
   "author": "Sinuhe Jaime Valencia <sierisimo@gmail.com>",
   "license": "GPL-2.0",
   "dependencies": {
-    "debug": "^2.2.0"
+    "debug": "^2.2.0",
+    "sqlite3": "^3.1.1"
   }
 }

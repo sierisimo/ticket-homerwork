@@ -21,8 +21,10 @@ filesPromise.then(require('./tools/fileReader').organize)
     }
 
     return parsedData;
-  }).then(function(tickets) {
-    debug(tickets);
+  }).then(require('./tools/validator').validateTickets)
+  .then(function(validItems) {
+    debug("Storing...");
+    debug(validItems);
   })
   .catch(function(err) {
     debug("Error happend");
