@@ -23,7 +23,7 @@ filesPromise.then(require('./tools/fileReader').organize)
     return parsedData;
   }).then(require('./tools/validator').validateTickets)
   .then(require('./tools/db').insertTickets)
-  .then(require('./tools/db').getInfoTickets)
+  //.then(require('./tools/db').getInfoTickets)
   .catch(function(err) {
     debug("Error happend");
     console.error(err);
