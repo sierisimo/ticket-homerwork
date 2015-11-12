@@ -18,7 +18,7 @@ Esta versión cuenta con:
 
 ## Futuras versiones
 
-* Seleccion de manejador con configuraciones en JSON
+* Selección de manejador con configuraciones en JSON
 * Exclusión de archivos por carpeta
 
 ## Contacto
