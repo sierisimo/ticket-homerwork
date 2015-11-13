@@ -23,6 +23,9 @@ filesPromise.then(require('./tools/fileReader').organize)
     return parsedData;
   }).then(require('./tools/validator').validateTickets)
   .then(require('./tools/db').insertTickets)
+  .then(function() {
+    debug("Everything worked fine... the data is storing now...");
+  })
   //.then(require('./tools/db').getInfoTickets)
   .catch(function(err) {
     debug("Error happend");

@@ -2,7 +2,7 @@ var sqlite = require('sqlite3').verbose(),
   debug = require('debug')('db');
 
 function insertTickets(tickets) {
-  var db, ticket, items;
+  var db, ticket, items, prom = Promise.resolve();
 
   for (var ticketName in tickets) {
     db = new sqlite.Database('./db/tickets.sqlite3');
@@ -10,7 +10,7 @@ function insertTickets(tickets) {
     ticket = tickets[ticketName];
     items = ticket.items;
 
-    db.serialize(function() {
+    //db.serialize(function() {
       var stProduct = db.prepare("INSERT OR IGNORE INTO product VALUES(?)"),
         stClient = db.prepare("INSERT OR IGNORE INTO client VALUES(?)"),
         stTicket = db.prepare("INSERT OR REPLACE INTO ticket VALUES($id,$client_id,$total,$ticket_date, $currency)"),
@@ -45,7 +45,7 @@ function insertTickets(tickets) {
       stProductTicket.finalize();
 
       db.close();
-    });
+  //  });
   }
 }
 
