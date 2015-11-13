@@ -1,1 +1,28 @@
-{}
+{"links":{
+        "sidebar":{
+            "Contact me":"mailto:sierisimo@gmail.com"
+        }
+    },
+    "plugins": ["richquotes","autocover"],
+    "pluginsConfig":{
+        "richquotes" :{
+            "todos" : true
+        },
+        "autocover":{
+            "title": "EdX Acatlán",
+            "author": "Sinuhé Jaime Valencia",
+            "font": {
+                "size": null,
+                "family": "Impact",
+                "color": "#FFF"
+            },
+            "size": {
+                "w": 1800,
+                "h": 2360
+            },
+            "background": {
+                "color": "#09F"
+            }
+        }
+    }
+}
