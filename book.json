@@ -9,8 +9,8 @@
             "todos" : true
         },
         "autocover":{
-            "title": "EdX Acatlán",
-            "author": "Sinuhé Jaime Valencia",
+            "title": "Ticket Translator",
+            "author": "Sinuhé Jaime Valencia, Erick Fernando Rivas Colunga",
             "font": {
                 "size": null,
                 "family": "Impact",
