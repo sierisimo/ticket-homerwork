@@ -12,7 +12,7 @@ Cada archivo de ticket debe contener 3 tipos de elementos:
 
 Estos elementos se encuentran de alguna manera "ofuscados" para evitar que se pueda directamente ver el contenido sin antes pasarlo por una serie de programas.
 
-> **Danger**Se asumen muchas cosas de estos elementos, sin embargo la estructura se mantiene.
+> **Danger** Se asumen muchas cosas de estos elementos, sin embargo la estructura se mantiene.
 
 ### Header/Descriptor
 
