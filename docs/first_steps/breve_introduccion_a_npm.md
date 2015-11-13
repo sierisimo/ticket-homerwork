@@ -2,7 +2,7 @@
 
 ## ¿Qué es?
 
-npm es una herramienta como las que la se vienen presentando ultimamente con muchos lenguajes de programación, un manejador de paquetes. 
+npm es una herramienta como las que la se vienen presentando últimamente con muchos lenguajes de programación, un manejador de paquetes. 
 
 Se le puede comparar con herramientas como maven, gem, pip, easy\_install, CPAN, etc. sin embargo su funcionamiento es mas sencillo, pues busca que toda la información de un proyecto se mantenga constante, también, esto involucra mantener sus dependencias con otros proyectos o paquetes configurables y de facil instalación.
 
