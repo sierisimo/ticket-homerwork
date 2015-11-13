@@ -8,7 +8,8 @@ function parsing(obj) {
   var ticketObj = {
       items: []
     },
-    line;
+    line, header = 0,
+    total = 0;
 
   //debug("Object arrived");
 
@@ -16,13 +17,27 @@ function parsing(obj) {
     line = obj.lines[i];
     switch (line[0]) {
       case 'H':
-        ticketObj.header = parseHeader(line.substring(1));
+        if (header === 0 && total === 0) {
+          ticketObj.header = parseHeader(line.substring(1));
+          header++;
+        } else {
+          throw new Error("More than one header founded");
+        }
         break;
       case 'I':
-        ticketObj.items.push(parseItem(line.substring(1)));
+        if (header === 1 && total === 0) {
+          ticketObj.items.push(parseItem(line.substring(1)));
+        } else {
+          throw new Error("Item found outside the items list.");
+        }
         break;
       case 'T':
-        ticketObj.total = parseTotal(line.substring(1));
+        if (header === 1 && total === 0) {
+          ticketObj.total = parseTotal(line.substring(1));
+          total++;
+        } else {
+          throw new Error("Total founded more than once or before the header");
+        }
         break;
     }
   }
