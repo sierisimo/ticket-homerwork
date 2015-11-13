@@ -23,4 +23,4 @@ Esta versión cuenta con:
 
 ## Contacto
 
-Cualquier asunto sobre este software y su uso, puede ser tratado directamente con **Sinuhé Jaime Valencia** en el correo [sierisimo@gmail.com](mailto:sierisimo@gmail.com)
+Cualquier asunto sobre este software y su uso, puede ser tratado directamente con **Sinuhé Jaime Valencia** en el correo [sierisimo@gmail.com](mailto:sierisimo@gmail.com) o con **Erick Fernando Rivas Colunga** en el correo [raycen.pain.skill@gmail.com](mailto:raycen.pain.skill@gmail.com)
