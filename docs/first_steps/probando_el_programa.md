@@ -4,6 +4,8 @@ Una vez realizados los pasos citados en los capitulos 1.1, 1.2 y 1.2.1 (es decir
 
 `npm start` 
 
-El programa tratar de iniciar y debera mostrar un error similar al siguiente:
+El programa tratara de iniciar y debera mostrar un error similar al siguiente:
 
 ![Error npm](error.png)
+
+Si este error aparece en nuestra pantalla, quiere decir que hemos instalado y probado TicketTranslator con exito.
