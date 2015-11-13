@@ -58,4 +58,13 @@ La linea de total debe ser unica, sus elementos son evaluados y de no coincidir 
 Su estructura consiste:
 
 * **Indicador de linea**: denotado por una letra _**T**_
-* * **Espacio divisor**: Un solo espacio para indicar separación
+* **Espacio divisor**: Un solo espacio para indicar separación.
+* **Total de lineas**: Un número indicando el total de items, si este número no coincide, se usara el total de elementos en la parte de items
+* **Espacio divisor**: 6 espacios para indicar separación entre elementos.
+* **Total neto**: Un número con punto decimal que indica el total de la compra, si este número no tiene coherencia con la suma total de los items, se usara la suma total en lugar de este numero.
+
+#### Ejemplo
+
+> **Cuation** El siguiente ejemplo no usa espacios, usa el caracter ":" para proporcionar una mejor legibilidad del ejemplo
+
+> T 5      1599.46
