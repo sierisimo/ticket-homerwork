@@ -17,3 +17,5 @@ INSERT OR REPLACE INTO ticket VALUES($id,$client_id,$total,$ticket_date, $curren
 --- Ingresar o actualizar los productos que tiene un ticket
 INSERT OR REPLACE INTO productsInTicket VALUES($ticket_id, $product_id, $age, $quantity, $value)
 ```
+
+En los casos de las sentencias donde se incluye el "?" este caracter es reemplazado en el programa con un unico valor, en los demas casos se reemplazan los parametros con `$texto`por un valor encontrado dentro de un objeto.
