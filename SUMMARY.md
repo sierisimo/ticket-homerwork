@@ -12,7 +12,6 @@
 * [TicketTranslator](docs/tickettranslator.md)
    * [Uso](docs/translator/uso.md)
    * [Mensajes](docs/translator/mensajes.md)
-   * [Tecnologias](docs/translator/tecnologias.md)
 * [Base de Datos](docs/basede_datos.md)
    * [SQLite](docs/db/sqlite.md)
        * [DDL](docs/db/sqlite/ddl.md)
