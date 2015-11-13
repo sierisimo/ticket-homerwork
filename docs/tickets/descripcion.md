@@ -6,4 +6,4 @@ Este archivo de texto, sirve como ejemplo de un ticket y permite a TicketTransla
 
 La manera de notar estos archivos, es simplemente creando un archivo que tenga la extensión _ticket_ y colocandolo en una carpeta con otros archivos con la misma extensión.
 
-También es posible usar otras extensiones, para mas detalles sobre esto, consultar 
+> **Caution** También es posible usar otras extensiones, para mas detalles sobre esto, consultar el articulo 3.4 y sus subarticulos
