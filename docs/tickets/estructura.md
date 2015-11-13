@@ -55,4 +55,7 @@ Los items son el único elemento que puede estar una o mas veces repetido. Debe 
 
 La linea de total debe ser unica, sus elementos son evaluados y de no coincidir con lo necesario, seran reemplazado con los valores calculados.
 
-Su estructura
+Su estructura consiste:
+
+* **Indicador de linea**: denotado por una letra _**T**_
+* * **Espacio divisor**: Un solo espacio para indicar separación
