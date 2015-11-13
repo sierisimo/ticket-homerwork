@@ -41,3 +41,4 @@ Los items son el único elemento que puede estar una o mas veces repetido. Debe 
 * **Antigüedad de producto**: Un número indicando la antigüedad del producto, no importa la cantidad de digitos en este nümero siempre que se respete el orden.
 * **Espacio divisor**: Tres espacios para indicar separación
 * **Cantidad**: Un número indicando la cantidad del producto, no importa la cantidad de digitos en este nümero siempre que se respete el orden.
+* **Valor neto**: Un número con punto decimal, sirve para indicar el precio.
