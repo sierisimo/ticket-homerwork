@@ -22,4 +22,7 @@ La herramienta subversion tambien esta soportada por el sitio de github, por lo 
 
 ## Git + Subversion
 
-Dada la capacidad de git para manejar proyectos de subversion es posible clonar el proyecto utilizando 
+Dada la capacidad de git para manejar proyectos de subversion es posible clonar el proyecto con git escribiendo en una terminal:
+
+`git svn clone -s https://github.com/sierisimo/ticket-homerwork`
+
