@@ -5,7 +5,6 @@
    * [Obteniendo el codigo](docs/first_steps/obteniendo_el_codigo.md)
    * [Instalando Dependencias](docs/first_steps/instalando_dependencias.md)
        * [Breve introducción a npm](docs/first_steps/breve_introduccion_a_npm.md)
-   * [Obtener e Instalar el Software](docs/first_steps/obtenereinstalar_el_software.md)
    * [Probando el programa](docs/first_steps/probando_el_programa.md)
 * [Tickets](docs/tickets.md)
    * [Descripcion](docs/tickets/descripcion.md)
