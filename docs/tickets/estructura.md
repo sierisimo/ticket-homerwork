@@ -63,3 +63,8 @@ Su estructura consiste:
 * **Espacio divisor**: 6 espacios para indicar separación entre elementos.
 * **Total neto**: Un número con punto decimal que indica el total de la compra, si este número no tiene coherencia con la suma total de los items, se usara la suma total en lugar de este numero.
 
+#### Ejemplo
+
+> **Cuation** El siguiente ejemplo no usa espacios, usa el caracter ":" para proporcionar una mejor legibilidad del ejemplo
+
+> T 5      1599.46
