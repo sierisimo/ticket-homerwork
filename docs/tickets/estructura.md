@@ -30,3 +30,12 @@ El header de cada ticket es una sola linea que debe contener los siguientes elem
 #### Ejemplo
 
 > HINV03126R007PL20150317EUR
+
+### Items
+
+Los items son el único elemento que puede estar una o mas veces repetido. Debe contener:
+
+* **Indicador de linea**: denotado por una letra _**I**_
+* **Id de producto**: Exactamente 7 elementos alfanuméricos.
+* **Espacio divisor**: Un espacio para indicar separación entre elementos.
+* **Antigüedad de producto**: Un número 
