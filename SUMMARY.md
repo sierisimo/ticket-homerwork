@@ -9,7 +9,6 @@
 * [Tickets](docs/tickets.md)
    * [Descripcion](docs/tickets/descripcion.md)
    * [Estructura](docs/tickets/estructura.md)
-   * [Notas importantes](docs/tickets/notas_importantes.md)
 * [TicketTranslator](docs/tickettranslator.md)
    * [Uso](docs/translator/uso.md)
    * [Mensajes](docs/translator/mensajes.md)
