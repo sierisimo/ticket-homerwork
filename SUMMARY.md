@@ -15,4 +15,5 @@
 * [Base de Datos](docs/basede_datos.md)
    * [SQLite](docs/db/sqlite.md)
        * [DDL](docs/db/sqlite/ddl.md)
+       * Ejemplos Consultas
 
