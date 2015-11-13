@@ -1,2 +1,34 @@
 # DDL
 
+El DDL con el cual se construyo la base de datos es muy sencillo y se incluye a continuación:
+
+```SQL
+CREATE TABLE IF NOT EXISTS product(
+  id TEXT PRIMARY KEY NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS client(
+  id TEXT PRIMARY KEY NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS ticket(
+  id TEXT PRIMARY KEY NOT NULL,
+  client_id TEXT NOT NULL,
+  total NUMBER NOT NULL,
+  ticket_date NUMBER NOT NULL,
+  currency TEXT NOT NULL,
+  FOREIGN KEY(client_id) REFERENCES client(id)
+);
+
+CREATE TABLE IF NOT EXISTS productsInTicket(
+  ticket_id TEXT NOT NULL,
+  product_id TEXT NOT NULL,
+  age NUMBER NOT NULL,
+  quantity NOT NULL,
+  value NOT NULL,
+  FOREIGN KEY(ticket_id) REFERENCES ticket(id),
+  FOREIGN KEY(product_id) REFERENCES product(id),
+  PRIMARY KEY (ticket_id, product_id)
+);
+
+```
