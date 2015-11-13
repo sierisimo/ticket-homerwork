@@ -19,8 +19,8 @@ Estos elementos se encuentran de alguna manera "ofuscados" para evitar que se pu
 El header de cada ticket es una sola linea que debe contener los siguientes elementos en orden y tamaño estricto:
 
 * **Indicador de linea**: denotado por una letra _**H**_
-* **Numéro de factura**: Una combinación de caracteres alfanuméricos con una longitud exacta de 8 elementos. Los primeros 3 elementos denotan el tipo de operación.
-* **Numéro de cliente**: 6 caracteres alfanuméricos exactamente, estos sirven para identificar al cliente.
+* **Número de factura**: Una combinación de caracteres alfanuméricos con una longitud exacta de 8 elementos. Los primeros 3 elementos denotan el tipo de operación.
+* **Número de cliente**: 6 caracteres alfanuméricos exactamente, estos sirven para identificar al cliente.
 * **Fecha**: Fecha dada por el formato YYYYMMdd donde
   * Y: Digito de año
   * M: Digito de mes
@@ -38,4 +38,6 @@ Los items son el único elemento que puede estar una o mas veces repetido. Debe 
 * **Indicador de linea**: denotado por una letra _**I**_
 * **Id de producto**: Exactamente 7 elementos alfanuméricos.
 * **Espacio divisor**: Un espacio para indicar separación entre elementos.
-* **Antigüedad de producto**: Un número 
+* **Antigüedad de producto**: Un número indicando la antigüedad del producto, no importa la cantidad de digitos en este nümero siempre que se respete el orden.
+* **Espacio divisor**: Tres espacios para indicar separación
+* **Cantidad**: Un número indicando la cantidad del producto, no importa la cantidad de digitos en este nümero siempre que se respete el orden.
