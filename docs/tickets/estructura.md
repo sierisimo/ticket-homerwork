@@ -19,3 +19,14 @@ Estos elementos se encuentran de alguna manera "ofuscados" para evitar que se pu
 El header de cada ticket es una sola linea que debe contener los siguientes elementos en orden y tamaño estricto:
 
 * **Indicador de linea**: denotado por una letra _**H**_
+* **Numéro de factura**: Una combinación de caracteres alfanuméricos con una longitud exacta de 8 elementos. Los primeros 3 elementos denotan el tipo de operación.
+* **Numéro de cliente**: 6 caracteres alfanuméricos exactamente, estos sirven para identificar al cliente.
+* **Fecha**: Fecha dada por el formato YYYYMMdd donde
+  * Y: Digito de año
+  * M: Digito de mes
+  * d: Digito de día
+* **Tipo de moneda**: De dos a tres caracteres que denotan el tipo de moneda usada en la transacción.
+
+#### Ejemplo
+
+> HINV03126R007PL20150317EUR
