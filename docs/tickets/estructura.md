@@ -16,3 +16,6 @@ Estos elementos se encuentran de alguna manera "ofuscados" para evitar que se pu
 
 ### Header/Descriptor
 
+El header de cada ticket es una sola linea que debe contener los siguientes elementos en orden y tamaño estricto:
+
+* **Indicador de linea**: denotado por una letra _**H**_
