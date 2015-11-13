@@ -18,3 +18,8 @@ Esto llevara por una guia rapida de como configurar un proyecto, desde definir q
 
 ### Usando npm en un proyecto ageno
 
+Cuando tenemos un proyecto que esta construido usando dependencias de npm, necesitaremos instalar esas dependencias antes de poder iniciar este proyecto, para hacerlo solo basta con colocar una terminal en la raiz del proyecto y escribir:
+
+`npm install`
+
+Esto indicara que deseamos buscar las dependencias listadas en el archivo `package.json`y que deseamos tenerlas localmente para poder continuar.
