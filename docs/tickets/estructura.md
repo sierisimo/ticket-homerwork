@@ -41,4 +41,18 @@ Los items son el único elemento que puede estar una o mas veces repetido. Debe 
 * **Antigüedad de producto**: Un número indicando la antigüedad del producto, no importa la cantidad de digitos en este nümero siempre que se respete el orden.
 * **Espacio divisor**: Tres espacios para indicar separación
 * **Cantidad**: Un número indicando la cantidad del producto, no importa la cantidad de digitos en este nümero siempre que se respete el orden.
+* **Espacio divisor**: Cuatro espacios para indicar separación entre elementos
 * **Valor neto**: Un número con punto decimal, sirve para indicar el precio.
+
+#### Ejemplo
+
+> **Cuation** El siguiente ejemplo no usa espacios, usa el caracter ":" para proporcionar una mejor legibilidad del ejemplo
+
+
+> ICONU018:3:::5::::53.74
+
+### Total
+
+La linea de total debe ser unica, sus elementos son evaluados y de no coincidir con lo necesario, seran reemplazado con los valores calculados.
+
+Su estructura
